@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleExecutable</key>
+	<string>OpenLoom</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.openloom.local</string>
+	<key>CFBundleName</key>
+	<string>OpenLoom</string>
+	<key>CFBundleDisplayName</key>
+	<string>OpenLoom</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleIconFile</key>
+	<string>OpenLoom</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.4.0</string>
+	<key>CFBundleVersion</key>
+	<string>5</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>15.2</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSScreenCaptureUsageDescription</key>
+	<string>Record only the screen or window you choose, and save the video on this Mac.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Add your voice to a local recording when you enable the microphone.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Preview or record your selected camera and save its video only on this Mac.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Create captions from local recordings using on-device speech recognition only.</string>
+</dict>
+</plist>

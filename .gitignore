@@ -1,0 +1,16 @@
+.build/
+dist/
+.DS_Store
+*.xcuserstate
+*.mp4
+*.mov
+*.wav
+*.m4a
+*.aac
+*.caf
+*.gguf
+*.bin
+.env
+# Replica reference material is for local inspection, never distributed.
+general/replica/screens/
+general/replica/diffs/

@@ -1,0 +1,42 @@
+[
+  {
+    "fg": "on-action",
+    "bg": "recording-action",
+    "size": "normal",
+    "ratio": 5.1,
+    "aa": true,
+    "aaa": false,
+    "fg_hex": "#ffffff",
+    "bg_hex": "#c63d32"
+  },
+  {
+    "fg": "on-action",
+    "bg": "accent",
+    "size": "normal",
+    "ratio": 4.92,
+    "aa": true,
+    "aaa": false,
+    "fg_hex": "#ffffff",
+    "bg_hex": "#7a57e0"
+  },
+  {
+    "fg": "on-action",
+    "bg": "preview-label-scrim-lightest",
+    "size": "normal",
+    "ratio": 7.0,
+    "aa": true,
+    "aaa": true,
+    "fg_hex": "#ffffff",
+    "bg_hex": "#595959"
+  },
+  {
+    "fg": "on-action",
+    "bg": "brand-coral",
+    "size": "ui",
+    "ratio": 3.32,
+    "aa": true,
+    "aaa": true,
+    "fg_hex": "#ffffff",
+    "bg_hex": "#ed5e52"
+  }
+]

@@ -1,0 +1,341 @@
+{
+  "date": "2026-10-05",
+  "method": "Exa discovery followed by direct GitHub repository metadata and file verification; Apple and Atlassian primary documentation. Feature claims are source-reviewed, not runtime-tested on competitors.",
+  "searchResultSlots": 55,
+  "repositories": [
+    {
+      "repository": "CapSoftware/Cap",
+      "url": "https://github.com/CapSoftware/Cap",
+      "defaultBranch": "main",
+      "archived": false,
+      "repositoryID": "720209383"
+    },
+    {
+      "repository": "alyssaxuu/screenity",
+      "url": "https://github.com/alyssaxuu/screenity",
+      "defaultBranch": "master",
+      "archived": false,
+      "repositoryID": "309123651"
+    },
+    {
+      "repository": "lihaoyun6/QuickRecorder",
+      "url": "https://github.com/lihaoyun6/QuickRecorder",
+      "defaultBranch": "main",
+      "archived": false,
+      "repositoryID": "789761983"
+    },
+    {
+      "repository": "Mnpn/Azayaka",
+      "url": "https://github.com/Mnpn/Azayaka",
+      "defaultBranch": "main",
+      "archived": false,
+      "repositoryID": "582164667"
+    },
+    {
+      "repository": "simarahitamtech/OpenCapture",
+      "url": "https://github.com/simarahitamtech/OpenCapture",
+      "defaultBranch": "main",
+      "archived": false,
+      "repositoryID": "1149552585"
+    },
+    {
+      "repository": "meck93/capture-this",
+      "url": "https://github.com/meck93/capture-this",
+      "defaultBranch": "main",
+      "archived": false,
+      "repositoryID": "1143558646"
+    },
+    {
+      "repository": "jayden9889/open-loom",
+      "url": "https://github.com/jayden9889/open-loom",
+      "defaultBranch": "main",
+      "archived": false,
+      "repositoryID": "1292424927"
+    },
+    {
+      "repository": "getopenscreen/openscreen",
+      "url": "https://github.com/getopenscreen/openscreen",
+      "defaultBranch": "main",
+      "archived": false,
+      "repositoryID": "1181567753"
+    },
+    {
+      "repository": "younghai/Recordly",
+      "url": "https://github.com/younghai/Recordly",
+      "defaultBranch": "main",
+      "archived": false,
+      "repositoryID": "1184392374"
+    },
+    {
+      "repository": "MinhOmega/Capturia",
+      "url": "https://github.com/MinhOmega/Capturia",
+      "defaultBranch": "main",
+      "archived": false,
+      "repositoryID": "1171823127"
+    },
+    {
+      "repository": "obsproject/obs-studio",
+      "url": "https://github.com/obsproject/obs-studio",
+      "defaultBranch": "master",
+      "archived": false,
+      "repositoryID": "13233158"
+    },
+    {
+      "repository": "wulkano/Kap",
+      "url": "https://github.com/wulkano/Kap",
+      "defaultBranch": "main",
+      "archived": false,
+      "repositoryID": "65411043"
+    },
+    {
+      "repository": "SeaDve/Kooha",
+      "url": "https://github.com/SeaDve/Kooha",
+      "defaultBranch": "main",
+      "archived": false,
+      "repositoryID": "344407228"
+    },
+    {
+      "repository": "NickeManarin/ScreenToGif",
+      "url": "https://github.com/NickeManarin/ScreenToGif",
+      "defaultBranch": "master",
+      "archived": false,
+      "repositoryID": "64713769"
+    },
+    {
+      "repository": "ShareX/ShareX",
+      "url": "https://github.com/ShareX/ShareX",
+      "defaultBranch": "develop",
+      "archived": false,
+      "repositoryID": "13428264"
+    },
+    {
+      "repository": "vkohaupt/vokoscreenNG",
+      "url": "https://github.com/vkohaupt/vokoscreenNG",
+      "defaultBranch": "3.0",
+      "archived": false,
+      "repositoryID": "103692141"
+    },
+    {
+      "repository": "phw/peek",
+      "url": "https://github.com/phw/peek",
+      "defaultBranch": "main",
+      "archived": true,
+      "repositoryID": "48430079"
+    },
+    {
+      "repository": "vertusdesign/ScreenCap",
+      "url": "https://github.com/vertusdesign/ScreenCap",
+      "defaultBranch": "main",
+      "archived": false,
+      "repositoryID": "1326285837"
+    }
+  ],
+  "verifiedFiles": [
+    {
+      "repository": "CapSoftware/Cap",
+      "path": "LICENSE",
+      "url": "https://github.com/CapSoftware/Cap/blob/main/LICENSE",
+      "blobSHA": "0c747229fc2afaa86c40a9f843321fe772bc6719"
+    },
+    {
+      "repository": "CapSoftware/Cap",
+      "path": "README.md",
+      "url": "https://github.com/CapSoftware/Cap/blob/main/README.md",
+      "blobSHA": "425327695512e9de0eb58fd8f8da977d9603149d"
+    },
+    {
+      "repository": "alyssaxuu/screenity",
+      "path": "LICENSE",
+      "url": "https://github.com/alyssaxuu/screenity/blob/master/LICENSE",
+      "blobSHA": "a5eae1527c5eadf27de0874ded503475baa6420f"
+    },
+    {
+      "repository": "lihaoyun6/QuickRecorder",
+      "path": "LICENSE",
+      "url": "https://github.com/lihaoyun6/QuickRecorder/blob/main/LICENSE",
+      "blobSHA": "0ad25db4bd1d86c452db3f9602ccdbe172438f52"
+    },
+    {
+      "repository": "simarahitamtech/OpenCapture",
+      "path": "LICENSE",
+      "url": "https://github.com/simarahitamtech/OpenCapture/blob/main/LICENSE",
+      "blobSHA": "b5414e61d76020d6ffdcb99f9c05285df995a253"
+    },
+    {
+      "repository": "simarahitamtech/OpenCapture",
+      "path": "README.md",
+      "url": "https://github.com/simarahitamtech/OpenCapture/blob/main/README.md",
+      "blobSHA": "b0c859b79699f71c0706002425175d15d40c4bcc"
+    },
+    {
+      "repository": "meck93/capture-this",
+      "path": "LICENSE",
+      "url": "https://github.com/meck93/capture-this/blob/main/LICENSE",
+      "blobSHA": "fa2e5f26909fb670ed4b3e78574481227dfbab9e"
+    },
+    {
+      "repository": "meck93/capture-this",
+      "path": "README.md",
+      "url": "https://github.com/meck93/capture-this/blob/main/README.md",
+      "blobSHA": "9494b18a7333caa998c1e92b818628e75d136567"
+    },
+    {
+      "repository": "jayden9889/open-loom",
+      "path": "LICENSE",
+      "url": "https://github.com/jayden9889/open-loom/blob/main/LICENSE",
+      "blobSHA": "5fdcfc901c7eb94c6c0a5f492af57af9df5e0861"
+    },
+    {
+      "repository": "jayden9889/open-loom",
+      "path": "README.md",
+      "url": "https://github.com/jayden9889/open-loom/blob/main/README.md",
+      "blobSHA": "8c685ee5aadc254a9b868bc6855d96a28a065814"
+    },
+    {
+      "repository": "getopenscreen/openscreen",
+      "path": "LICENSE",
+      "url": "https://github.com/getopenscreen/openscreen/blob/main/LICENSE",
+      "blobSHA": "74c130d85011e359c9b54d8b8490fac0d59d71d6"
+    },
+    {
+      "repository": "getopenscreen/openscreen",
+      "path": "README.md",
+      "url": "https://github.com/getopenscreen/openscreen/blob/main/README.md",
+      "blobSHA": "23cb6784de12c7863075055d405c3b7662893c14"
+    },
+    {
+      "repository": "younghai/Recordly",
+      "path": "LICENSE",
+      "url": "https://github.com/younghai/Recordly/blob/main/LICENSE",
+      "blobSHA": "e647fb5986fd682751db9f4162afbe904b6e03f9"
+    },
+    {
+      "repository": "younghai/Recordly",
+      "path": "README.md",
+      "url": "https://github.com/younghai/Recordly/blob/main/README.md",
+      "blobSHA": "8baa804b5db69bd7f5937739ae2a0aaf31f6da5f"
+    },
+    {
+      "repository": "MinhOmega/Capturia",
+      "path": "LICENSE",
+      "url": "https://github.com/MinhOmega/Capturia/blob/main/LICENSE",
+      "blobSHA": "82f7a7d388565e0c49ceb5307b9a45f36837f85c"
+    },
+    {
+      "repository": "MinhOmega/Capturia",
+      "path": "README.md",
+      "url": "https://github.com/MinhOmega/Capturia/blob/main/README.md",
+      "blobSHA": "8ac27e7eb1fa04f3accc9b409db77da572497569"
+    },
+    {
+      "repository": "obsproject/obs-studio",
+      "path": "COPYING",
+      "url": "https://github.com/obsproject/obs-studio/blob/master/COPYING",
+      "blobSHA": "d159169d1050894d3ea3b98e1c965c4058208fe1"
+    },
+    {
+      "repository": "wulkano/Kap",
+      "path": "README.md",
+      "url": "https://github.com/wulkano/Kap/blob/main/README.md",
+      "blobSHA": "638c039b64267c6acde10322addedbbe5fd19440"
+    },
+    {
+      "repository": "SeaDve/Kooha",
+      "path": "README.md",
+      "url": "https://github.com/SeaDve/Kooha/blob/main/README.md",
+      "blobSHA": "72d9cfd725bd746e62c3dfdaffc0aa3cfadfb84e"
+    },
+    {
+      "repository": "SeaDve/Kooha",
+      "path": "COPYING",
+      "url": "https://github.com/SeaDve/Kooha/blob/main/COPYING",
+      "blobSHA": "10926e87f113fb026c366866d6fa466061562870"
+    },
+    {
+      "repository": "NickeManarin/ScreenToGif",
+      "path": "README.md",
+      "url": "https://github.com/NickeManarin/ScreenToGif/blob/master/README.md",
+      "blobSHA": "1f51f86fe9e0eb22fee87a33da98b4041d474923"
+    },
+    {
+      "repository": "NickeManarin/ScreenToGif",
+      "path": "LICENSE.txt",
+      "url": "https://github.com/NickeManarin/ScreenToGif/blob/master/LICENSE.txt",
+      "blobSHA": "e12bbfb0abab64217010d0cfcacefc102013de21"
+    },
+    {
+      "repository": "ShareX/ShareX",
+      "path": "LICENSE.txt",
+      "url": "https://github.com/ShareX/ShareX/blob/develop/LICENSE.txt",
+      "blobSHA": "20d40b6bceca3a6c0237d7455ebf1820aeff3680"
+    },
+    {
+      "repository": "vkohaupt/vokoscreenNG",
+      "path": "COPYING",
+      "url": "https://github.com/vkohaupt/vokoscreenNG/blob/3.0/COPYING",
+      "blobSHA": "96343bb881801428ee1b4c58a75d9a57c56017f1"
+    },
+    {
+      "repository": "vertusdesign/ScreenCap",
+      "path": "LICENSE",
+      "url": "https://github.com/vertusdesign/ScreenCap/blob/main/LICENSE",
+      "blobSHA": "f2100febb909f5ae1e654354de6d3d66d8a5dfd1"
+    },
+    {
+      "repository": "vertusdesign/ScreenCap",
+      "path": "README.md",
+      "url": "https://github.com/vertusdesign/ScreenCap/blob/main/README.md",
+      "blobSHA": "e18cfadf48f908bc1d7804840584d180600d19ae"
+    }
+  ],
+  "reliabilityReview": [
+    {
+      "repository": "CapSoftware/Cap",
+      "path": "crates/recording/src/studio_recording.rs",
+      "blobSHA": "1ff44d06f1b86d1eae8ff7bfddcd7a25bc4b92c5",
+      "url": "https://github.com/CapSoftware/Cap/blob/main/crates/recording/src/studio_recording.rs"
+    },
+    {
+      "repository": "CapSoftware/Cap",
+      "path": "crates/recording/src/recovery.rs",
+      "blobSHA": "9eddbcbeb2e48affca0eb7dfb9f467e53b84f8c6",
+      "url": "https://github.com/CapSoftware/Cap/blob/main/crates/recording/src/recovery.rs"
+    },
+    {
+      "repository": "CapSoftware/Cap",
+      "path": "crates/recording/examples/real-device-test-runner.rs",
+      "blobSHA": "615c1357940edbe2676312eee6754a05d69327cb",
+      "url": "https://github.com/CapSoftware/Cap/blob/main/crates/recording/examples/real-device-test-runner.rs"
+    },
+    {
+      "repository": "CapSoftware/Cap",
+      "path": "crates/recording/FINDINGS.md",
+      "blobSHA": "14378b5886d20e525757ce7628ed94c108c2184c",
+      "url": "https://github.com/CapSoftware/Cap/blob/main/crates/recording/FINDINGS.md"
+    },
+    {
+      "repository": "lihaoyun6/QuickRecorder",
+      "path": "QuickRecorder/RecordEngine.swift",
+      "blobSHA": "0f0a2f4f1a8ce417f13ede8a8b1e555dedfb2546",
+      "url": "https://github.com/lihaoyun6/QuickRecorder/blob/main/QuickRecorder/RecordEngine.swift"
+    },
+    {
+      "repository": "lihaoyun6/QuickRecorder",
+      "path": "QuickRecorder/SCContext.swift",
+      "blobSHA": "52cfb2ca51fa56fc135f22e3e791a9de10c74514",
+      "url": "https://github.com/lihaoyun6/QuickRecorder/blob/main/QuickRecorder/SCContext.swift"
+    },
+    {
+      "repository": "simarahitamtech/OpenCapture",
+      "path": "SimaraRecord/Sources/Core/WebcamManager.swift",
+      "blobSHA": "1f2a7d61a93a72c29c22810acef4510cde070344",
+      "url": "https://github.com/simarahitamtech/OpenCapture/blob/main/SimaraRecord/Sources/Core/WebcamManager.swift"
+    },
+    {
+      "repository": "simarahitamtech/OpenCapture",
+      "path": "SimaraRecord/Sources/Core/VideoWriter.swift",
+      "blobSHA": "c59e9e3425733c86903120f284a1df9ba5187515",
+      "url": "https://github.com/simarahitamtech/OpenCapture/blob/main/SimaraRecord/Sources/Core/VideoWriter.swift"
+    }
+  ]
+}

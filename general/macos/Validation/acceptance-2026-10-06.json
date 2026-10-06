@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-06",
+  "appVersion": "0.4.0",
+  "build": "5",
+  "environment": {
+    "os": "macOS 27.0.1 (26A434)",
+    "hardware": "Apple Silicon",
+    "toolchain": "Apple Swift 6.4 CLT",
+    "deploymentTarget": "macOS 15.2",
+    "minimumOSAndIntelTested": false
+  },
+  "verification": {
+    "coreTests": 35,
+    "suites": 6,
+    "executionSeconds": 1.55,
+    "optimizedBuild": "passed",
+    "strictSigning": "passed",
+    "signedPrivacyAudit": "passed",
+    "sameEntitlementNoPayloadSandboxProbe": "denied-as-expected"
+  },
+  "installedExecutableSHA256": "84dde0d2b607e4c2b12668c4345c3082d2a6d146834dc545c2223bef02d11cbd",
+  "cameraAcceptance": {
+    "status": "passed",
+    "duration": 10.56783,
+    "segments": 2,
+    "audioTracks": 0,
+    "decodedFrames": 2,
+    "playbackVerified": true,
+    "recordingPreviewVerified": true,
+    "timings": {
+      "previewCycle2": 0.7179127916606376,
+      "stop": 0.26602816667582374,
+      "previewCycle1": 3.130837041666382,
+      "pause": 0.15047983333352022,
+      "previewCycle3": 0.7642698749987176
+    }
+  },
+  "cameraScope": {
+    "mode": "camera-only",
+    "microphone": false,
+    "systemAudio": false,
+    "screen": false,
+    "source": "built-in default camera",
+    "quality": "720p",
+    "fps": 30,
+    "pixelsPublished": false,
+    "finalCosmeticChangeAfterCameraTest": "Only action color and placeholder scrim changed; final generated studio/build/signing checks rerun"
+  },
+  "cameraRelatedSourceSHA256": {
+    "Services/CameraRecorder.swift": "b3c12ccfe150182b3636d3a59098e866b796d5777da0b54a7510ce21d88c77f3",
+    "Services/CameraPreviewFrames.swift": "ce46a2e0999c5c87031b1c67ea332919aa9c4259c6c37a4422f748c5a5b8fb7e",
+    "Services/CaptureEngine.swift": "a532c6605ebe6ae90b23b0c9de9c720d239af32242d8a8643f0ff41fc2c3b45a",
+    "Stores/CameraController.swift": "b85ee4ba9e940ec4f0e28c279614973c97c929e3f2324b234e4b16ea67b32f9d",
+    "Views/NativeVideoPlayer.swift": "8a624e81566443dd740d6267f6e15a8c847dfcccc3f5d2a26309fa0d6bbc4b85"
+  },
+  "studioAcceptance": {
+    "status": "passed",
+    "checks": [
+      "Generated setup layouts rendered at default/minimum sizes and light/dark appearances",
+      "Floating panels configured for all Spaces/fullscreen; recorder position retained after hide/show and camera resized to three sizes programmatically",
+      "Main studio closed and reopened while floating controls and shared app state remained available",
+      "Mounted native player loaded the generated demo and advanced playback in the main window",
+      "Timestamped note creation and removal persisted",
+      "Local library search found generated recording metadata",
+      "Trim exported inside the signed app sandbox and released its busy state",
+      "Drawing and zoom export completed inside the signed app sandbox",
+      "Sample captions and review document exported locally"
+    ],
+    "imageCount": 14,
+    "finalReportModifiedUTC": "2026-10-06T04:25:43.133470+00:00"
+  },
+  "postCameraSample": {
+    "durationSeconds": 2,
+    "mainThread": "idle in native event loop",
+    "scope": "point observation; not performance benchmark",
+    "privateSamplePublished": false
+  },
+  "replica": {
+    "repository": "https://github.com/Jakeschincariol/replica-skill",
+    "modules": [
+      "replica-recon",
+      "replica-architect",
+      "replica-design",
+      "replica-test",
+      "replica-diff"
+    ],
+    "helperSHA256": {
+      "parity.py": "208a2bd1d4168da24ddc1c29d5d011a8a22a90587cb0d430bd442165fe3c9c28",
+      "contrast.py": "2c4b57890fddb799d227cef5cbd9f92f11580376c161f99bf08c86517599101f"
+    },
+    "layoutScore": null,
+    "layoutReason": "No matched original/clone pair; browser connector denied original public page",
+    "featureScore": 51.9,
+    "mustHaveComplete": 5,
+    "mustHaveTotal": 12,
+    "explicitContrastPairs": 4,
+    "contrastFailures": 0
+  },
+  "publishedGeneratedFixtures": {
+    "S01-setup-light.png": "f1edaeea296ed958f7b2e6cda8f918b2936462d9b3f7301c76a7a6951bfa87c2",
+    "S01-setup-dark.png": "c3e4111422c5f06119632e4c9d6146ca45606a7ec3215cffc3dcf52368d55805",
+    "S01-setup-compact.png": "93c900fe97ec97d48ca70d0b371a1b08a89bdced31fad0182e7afd52c4fab383",
+    "S02-recording-fixture.png": "35ba7c1e32faf5e86ecbc84a1ac636ae45e679eeae38346149df7f035e0c5072",
+    "S03-camera-placeholder.png": "c53e80c5759cdb91ab0af6def021d808625a0f7454f1773078625691947d019d",
+    "S05-review-fixture.png": "d272f6826e9ce151e044d4426f910757c956868009fb2f7c064c8fb19192f57d",
+    "S06-notes-fixture.png": "9f0c90c704d59303d0382e286a34076631888b40685587ce100e01b743c202a8"
+  },
+  "notVerified": [
+    "real screen and audio capture",
+    "combined screen and camera synchronization",
+    "long-recording reliability and resource use",
+    "abrupt interruption/disk pressure/sleep/device loss",
+    "actual speech recognition",
+    "physical dragging/multiple Spaces/fullscreen",
+    "complete accessibility flows",
+    "minimum OS/Intel",
+    "distribution signing/notarization"
+  ],
+  "privacy": "Metadata and allowlisted generated UI fixtures only; no recording UUIDs, private paths, library inventory, camera frames, footage or personal text."
+}

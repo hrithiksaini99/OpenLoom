@@ -1,0 +1,300 @@
+{
+  "feature_score": 51.9,
+  "counted": 37,
+  "must_have_done": 5,
+  "must_have_total": 12,
+  "by_area": [
+    {
+      "area": "local intelligence",
+      "score": 0.0,
+      "features": 2
+    },
+    {
+      "area": "recording",
+      "score": 37.0,
+      "features": 12
+    },
+    {
+      "area": "capture",
+      "score": 52.1,
+      "features": 10
+    },
+    {
+      "area": "editing",
+      "score": 57.1,
+      "features": 7
+    },
+    {
+      "area": "review",
+      "score": 84.6,
+      "features": 6
+    }
+  ],
+  "missing": [
+    {
+      "feature": "Display or window capture",
+      "area": "capture",
+      "priority": "must",
+      "clone": "partial",
+      "notes": "F01; ScreenCaptureKit implemented; actual source picker/start/pause/stop/display exclusions awaiting screen acceptance"
+    },
+    {
+      "feature": "Microphone input",
+      "area": "capture",
+      "priority": "must",
+      "clone": "partial",
+      "notes": "F01; default device implemented; actual microphone acceptance unrun"
+    },
+    {
+      "feature": "Screen plus camera capture",
+      "area": "capture",
+      "priority": "must",
+      "clone": "partial",
+      "notes": "F01/F02; generated composition and private camera checked separately; live screen/camera synchronization unverified"
+    },
+    {
+      "feature": "Draggable resizable camera bubble",
+      "area": "recording",
+      "priority": "must",
+      "clone": "partial",
+      "notes": "S03; native preview panel and three sizes implemented; physical drag unverified; encoded bubble still uses presets"
+    },
+    {
+      "feature": "Floating recording controls",
+      "area": "recording",
+      "priority": "must",
+      "clone": "partial",
+      "notes": "S02/F06; native capsule/menu and close/reopen verified; physical drag and cross-Space/fullscreen acceptance pending"
+    },
+    {
+      "feature": "Pause and resume",
+      "area": "recording",
+      "priority": "must",
+      "clone": "partial",
+      "notes": "F02; real camera passed; screen/audio continuity and repeated long-session cycles unverified"
+    },
+    {
+      "feature": "Reliable stop and reviewable video",
+      "area": "recording",
+      "priority": "must",
+      "clone": "partial",
+      "notes": "F03; bounded finalization and raw take recovery implemented; short camera passed; screen/audio/long takes pending"
+    },
+    {
+      "feature": "Audio level meters and preflight check",
+      "area": "capture",
+      "priority": "should",
+      "clone": "no",
+      "notes": "S01/S02; cannot currently check signal level or hear a test sample in the app"
+    },
+    {
+      "feature": "Choose microphone device",
+      "area": "capture",
+      "priority": "should",
+      "clone": "no",
+      "notes": "F01; input currently follows the macOS default"
+    },
+    {
+      "feature": "Custom region capture",
+      "area": "capture",
+      "priority": "should",
+      "clone": "no",
+      "notes": "F01; display/window only"
+    },
+    {
+      "feature": "Blur sensitive content",
+      "area": "editing",
+      "priority": "should",
+      "clone": "no",
+      "notes": "F05; redaction absent; do not treat drawing boxes as verified redaction"
+    },
+    {
+      "feature": "Cut and stitch multiple ranges",
+      "area": "editing",
+      "priority": "should",
+      "clone": "no",
+      "notes": "F05; no general timeline or stitch editor"
+    },
+    {
+      "feature": "Live drawing while recording",
+      "area": "recording",
+      "priority": "should",
+      "clone": "no",
+      "notes": "F02; drawing currently occurs after recording"
+    },
+    {
+      "feature": "Restart or discard a take",
+      "area": "recording",
+      "priority": "should",
+      "clone": "no",
+      "notes": "F02; no quick restart/discard control; source preservation is deliberate"
+    },
+    {
+      "feature": "Speaker notes while recording",
+      "area": "recording",
+      "priority": "should",
+      "clone": "no",
+      "notes": "F02; review notes exist; teleprompter/speaker-notes overlay absent"
+    },
+    {
+      "feature": "Toggle encoded camera while recording",
+      "area": "recording",
+      "priority": "should",
+      "clone": "no",
+      "notes": "F02; preview visibility toggles safely; cannot enable/disable the recorded camera stream live"
+    },
+    {
+      "feature": "System audio input",
+      "area": "capture",
+      "priority": "should",
+      "clone": "partial",
+      "notes": "F01; screen stream supports audio; real capture and heard playback unverified"
+    },
+    {
+      "feature": "Cursor and click highlights",
+      "area": "recording",
+      "priority": "should",
+      "clone": "partial",
+      "notes": "F02/F05; cursor visibility and opt-in display-click events; post-recording highlight cues; multi-display mapping unverified"
+    },
+    {
+      "feature": "Recording keyboard shortcuts",
+      "area": "recording",
+      "priority": "should",
+      "clone": "partial",
+      "notes": "S02/S09; app-scoped commands implemented; system-wide hotkeys and customization absent"
+    },
+    {
+      "feature": "Transcripts and captions",
+      "area": "review",
+      "priority": "should",
+      "clone": "partial",
+      "notes": "S05; installed on-device SpeechTranscriber implementation; sample exports pass; real speech recognition unrun"
+    },
+    {
+      "feature": "Remove filler words and silence",
+      "area": "editing",
+      "priority": "could",
+      "clone": "no",
+      "notes": "F05; no text-driven cut pipeline"
+    },
+    {
+      "feature": "Stylized playback captions",
+      "area": "editing",
+      "priority": "could",
+      "clone": "no",
+      "notes": "S05; standard caption preview and SRT/VTT only; burned-in subtitles are a separate local roadmap item not established as a Loom feature"
+    },
+    {
+      "feature": "Automatic titles summaries and chapters",
+      "area": "local intelligence",
+      "priority": "could",
+      "clone": "no",
+      "notes": "F04; manual notes/chapters only; future local model must be user supplied and explicitly enabled"
+    },
+    {
+      "feature": "Filler correction with generated speech",
+      "area": "local intelligence",
+      "priority": "could",
+      "clone": "no",
+      "notes": "F05; no local text-to-speech edit pipeline"
+    },
+    {
+      "feature": "Camera frames and virtual backgrounds",
+      "area": "recording",
+      "priority": "could",
+      "clone": "no",
+      "notes": "S03; original plain ring/gradient placeholder; no decorative frames/background removal"
+    },
+    {
+      "feature": "Folders and tags",
+      "area": "review",
+      "priority": "could",
+      "clone": "no",
+      "notes": "S04; flat searchable library currently"
+    }
+  ],
+  "skipped": [
+    {
+      "feature": "Upload and hosted sharing links",
+      "area": "cloud",
+      "priority": "must",
+      "clone": "skip",
+      "notes": "Outside explicit local-only boundary; export a local file instead"
+    },
+    {
+      "feature": "Remote comments and emoji reactions",
+      "area": "cloud",
+      "priority": "should",
+      "clone": "skip",
+      "notes": "No remote service; local timestamped notes cover personal review only"
+    },
+    {
+      "feature": "Viewer analytics and engagement",
+      "area": "cloud",
+      "priority": "could",
+      "clone": "skip",
+      "notes": "Requires remote viewer activity; excluded"
+    },
+    {
+      "feature": "Accounts teams and permissions",
+      "area": "cloud",
+      "priority": "should",
+      "clone": "skip",
+      "notes": "Single OS user; private sandbox storage"
+    },
+    {
+      "feature": "Cloud AI and meeting bots",
+      "area": "cloud",
+      "priority": "could",
+      "clone": "skip",
+      "notes": "No networked inference or automated remote meeting attendance"
+    },
+    {
+      "feature": "Cloud app integrations and embeds",
+      "area": "cloud",
+      "priority": "could",
+      "clone": "skip",
+      "notes": "No external sharing API or integrations"
+    },
+    {
+      "feature": "Hosted personalized call-to-action buttons",
+      "area": "cloud",
+      "priority": "could",
+      "clone": "skip",
+      "notes": "Interactive hosted playback outside local file scope"
+    },
+    {
+      "feature": "Automatic uploads after recording",
+      "area": "cloud",
+      "priority": "must",
+      "clone": "skip",
+      "notes": "Runtime has no network entitlement or uploader"
+    }
+  ],
+  "extras": [
+    {
+      "feature": "OS sandbox rejects network connections",
+      "area": "local privacy",
+      "priority": "must",
+      "clone": "yes",
+      "notes": "OpenLoom-specific product boundary; signed entitlements plus no-payload sandbox-denial probe"
+    },
+    {
+      "feature": "Private raw takes retained for local recovery",
+      "area": "local privacy",
+      "priority": "must",
+      "clone": "yes",
+      "notes": "OpenLoom-specific exposed guarantee for finalized sources; arbitrary corrupt/unfinalized files not guaranteed recoverable"
+    },
+    {
+      "feature": "Generated demo without device permissions",
+      "area": "onboarding",
+      "priority": "should",
+      "clone": "yes",
+      "notes": "OpenLoom-owned generated content; installed-app workflow passes; sample captions are labeled"
+    }
+  ],
+  "problems": [],
+  "overall": 51.9
+}
